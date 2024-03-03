@@ -102,7 +102,7 @@ Optional<String> name = optInsurance.map(Insurance::getName);
 - 값을 포함하면 map의 인수로 제공된 함수가 값을 바꿈
 - Optional이 비어있다면 아무 일도 일어나지 않음
     
-    ![11_1.jpg](Chap11%20null%20%E1%84%83%E1%85%A2%E1%84%89%E1%85%B5%E1%86%AB%20Optional%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B3%202c45623f3e774263a02c49210184c5c7/11_1.jpg)
+    ![11_1](https://github.com/znight1020/Reading-Development-Book/assets/104980470/b27cd694-2c1d-4d9a-a993-148bd1738aed)
     
     ```java
     public String getCarInsuranceName(Person person){
@@ -136,8 +136,7 @@ public String getCarInsuranceName(Optional<Person> person){
 
 - Optional을 이용한 Person/Car/Insurance 참조 체인
     
-    ![11_2.jpg](Chap11%20null%20%E1%84%83%E1%85%A2%E1%84%89%E1%85%B5%E1%86%AB%20Optional%20%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A2%E1%84%89%E1%85%B3%202c45623f3e774263a02c49210184c5c7/11_2.jpg)
-    
+    ![11_2](https://github.com/znight1020/Reading-Development-Book/assets/104980470/310b4ae4-491c-4587-b816-49bebceb83f6)
 
 ### Optional 스트림 조작
 
